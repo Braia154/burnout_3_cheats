@@ -1,0 +1,36 @@
+gametitle=Burnout 3: Takedown [SLUS-21050] (U)
+comment=Takedown-count pitch outside World Tour (target 10, resets on crash)
+
+[Takedown pitch by count - target 10]
+patch=1,EE,00286480,word,00000000
+patch=1,EE,0028649C,word,00000000
+patch=1,EE,002864A4,word,0C042E76
+patch=1,EE,002864A8,word,00000000
+patch=1,EE,002864AC,word,00000000
+patch=1,EE,002864B0,word,00000000
+patch=1,EE,002864B4,word,00000000
+patch=1,EE,0010B9D8,word,3C010011
+patch=1,EE,0010B9DC,word,8C244AFC
+patch=1,EE,0010B9E0,word,3C030065
+patch=1,EE,0010B9E4,word,8C63E4D8
+patch=1,EE,0010B9E8,word,0064102A
+patch=1,EE,0010B9EC,word,10400002
+patch=1,EE,0010B9F0,word,00000000
+patch=1,EE,0010B9F4,word,0000202D
+patch=1,EE,0010B9F8,word,03E00008
+patch=1,EE,0010B9FC,word,2484000A // change this word (two bytes ´´000A´´) to change the target (default: 10)
+patch=1,EE,004BF26C,word,00114AC4
+patch=1,EE,00114AC4,word,2401007F
+patch=1,EE,00114AC8,word,12410006
+patch=1,EE,00114ACC,word,00000000
+patch=1,EE,00114AD0,word,24010080
+patch=1,EE,00114AD4,word,12410003
+patch=1,EE,00114AD8,word,00000000
+patch=1,EE,00114ADC,word,080A17BA
+patch=1,EE,00114AE0,word,00000000
+patch=1,EE,00114AE4,word,3C020065
+patch=1,EE,00114AE8,word,8C42E4D8
+patch=1,EE,00114AEC,word,3C010011
+patch=1,EE,00114AF0,word,AC224AFC
+patch=1,EE,00114AF4,word,080A17BA
+patch=1,EE,00114AF8,word,00000000
