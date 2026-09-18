@@ -1,0 +1,4 @@
+[detach parts in road rage]
+author=zeca_do_pneu
+description=detach all car parts in damage critical, when the hood is detached
+patch=0,EE,00395CDC,word,00000000
