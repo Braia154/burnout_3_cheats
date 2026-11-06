@@ -1,5 +1,13 @@
 [blinkers restored]
 description= blinkers back yea
+// Gancho 0x001529CC (CB3RaceCar::Update). Codigo 0x001DC528-0x001DC64C; diretorio
+// de 35 pistas em 0x0040CAA0; 335 trechos. Blocos de codigo morto usados:
+//   0x001E4970-0x001E4ACC (bloco 0x001E4970-0x001E4C20)
+//   0x002C4F5C-0x002C5268 (bloco 0x002C4F5C-0x002C5270)
+//   0x0040CAA0-0x0040CDB4 (bloco 0x0040CAA0-0x0040CDB8)
+// Gerado por mk_pisca.py (v4; regra e setas manuais em marcas_regra.py) - corrigir la.
+// =====================================================================
+author=Braia + Claude
 patch=1,EE,001DC528,word,A22018EF
 patch=1,EE,001DC52C,word,14400026
 patch=1,EE,001DC530,word,3C080065
